@@ -2,11 +2,9 @@
 
 我是 Ash，目前是 Umich 的 Undergraduate student
 
-我一直致力于拯救地球的生态系统。
+我一直致力于拯救地球的生态系统，地球没我很有可能转不了。
 
 建设更美好的公共卫生和环境，支持低碳及相关环保工作。
-
-编码只是我的爱好，目前在做多模态分类方面的研究。
 
 #### 个人荣誉
 
@@ -14,11 +12,16 @@
   - 网友比现实好友多出 20 倍，虽然大部分是因为在线游戏
 - 2020 COVID-19 期间的最可爱公民
   - 呆在家里一整年，一年未出门，成功减少了个人碳足迹，地球表示感激。
-- 2021 线上会议杰出贡献奖
+- 2024 线上会议杰出贡献奖
   - 参加了无数的 Zoom Meeting，但是下半身从没穿过裤子。
-- 2022 最佳居家旅行家
-  - 通过谷歌卫星地图，走遍了世界各地，包括撒哈拉沙漠。
-- 2023 居家生活节能大使
-  - 走路步数保持在一天不超过一百步，电费水费历史新低。 
-- 2024 最值得信任的 Teammate
-  - 把好朋友的Dota天梯分带上超凡，被称为“艾神”。
+ 
+#### 如何改变世界
+
+运行以下指令，你将获得改变世界的力量
+```python
+conda create -n myenv python=3.11
+conda activate myenv
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
+import torch
+print(torch.cuda.is_available())
+```
